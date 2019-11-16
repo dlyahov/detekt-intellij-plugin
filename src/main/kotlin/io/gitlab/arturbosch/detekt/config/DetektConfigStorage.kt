@@ -64,4 +64,7 @@ class DetektConfigStorage : PersistentStateComponent<DetektConfigStorage> {
         fun instance(project: Project): DetektConfigStorage =
             ServiceManager.getService(project, DetektConfigStorage::class.java)
     }
+
 }
+
+

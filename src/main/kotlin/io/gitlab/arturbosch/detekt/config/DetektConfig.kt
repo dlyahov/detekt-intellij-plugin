@@ -28,3 +28,5 @@ class DetektConfig(private val project: Project) : SearchableConfigurable {
 
     override fun createComponent(): JComponent? = detektConfigurationForm.createPanel(detektConfigStorage)
 }
+
+
