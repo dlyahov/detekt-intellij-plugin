@@ -27,6 +27,5 @@ class DetektConfig(private val project: Project) : SearchableConfigurable {
     override fun reset() = detektConfigurationForm.reset()
 
     override fun createComponent(): JComponent? = detektConfigurationForm.createPanel(detektConfigStorage)
+
 }
-
-
