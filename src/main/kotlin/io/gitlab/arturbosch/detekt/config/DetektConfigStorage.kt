@@ -52,7 +52,7 @@ class DetektConfigStorage : PersistentStateComponent<DetektConfigStorage> {
         this.rulesPath = state.rulesPath
         this.baselinePath = state.baselinePath
         this.treatAsError = state.treatAsError
-    }
+}
 
     companion object {
 
